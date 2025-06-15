@@ -6,23 +6,23 @@ const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
   const [typedText, setTypedText] = useState('');
 
- const roles = [
-  'Shopify Developer',
-  'Performance Optimizer',
-  'Liquid Engineer',
-  'Frontend Architect',
-  'E-commerce Architect',
-  'Frontend Engineer',
-  'Digital Craftsman'
-];
+  const roles = [
+    'Shopify Developer',
+    'Performance Optimizer',
+    'Liquid Engineer',
+    'Frontend Architect',
+    'E-commerce Architect',
+    'Frontend Engineer',
+    'Digital Craftsman'
+  ];
 
   const codeSnippets = [
-  '{ conversionRate: "↑37%", loadTime: "↓45%" }',
-  'buildTheme("Figma → Shopify")',
-  'optimize(UX).for("mobile-first")',
-  'integrate(Apps).via("Private APIs")',
-  'return <HighConvertingStore />',
-  'git push origin scalable-code'
+    '{ conversionRate: "↑37%", loadTime: "↓45%" }',
+    'buildTheme("Figma → Shopify")',
+    'optimize(UX).for("mobile-first")',
+    'integrate(Apps).via("Private APIs")',
+    'return <HighConvertingStore />',
+    'git push origin scalable-code',
     '{ theme: "liquid", magic: true }',
     'const success = await deploy();',
     'if (coffee) { code(); }',
@@ -33,12 +33,11 @@ const Hero = () => {
 
   useEffect(() => {
     setIsVisible(true);
-    
+
     const roleInterval = setInterval(() => {
       setCurrentRole((prev) => (prev + 1) % roles.length);
     }, 3000);
 
-    // Typing animation for code snippets
     let currentSnippet = 0;
     let currentChar = 0;
     const typeInterval = setInterval(() => {
