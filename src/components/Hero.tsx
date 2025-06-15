@@ -6,16 +6,15 @@ const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
   const [typedText, setTypedText] = useState('');
 
-  const roles = [
+ const roles = [
   'Shopify Developer',
   'Performance Optimizer',
   'Liquid Engineer',
-  'Frontend Architect'
-    'Shopify Developer',
-    'E-commerce Architect', 
-    'Frontend Engineer',
-    'Digital Craftsman'
-  ];
+  'Frontend Architect',
+  'E-commerce Architect',
+  'Frontend Engineer',
+  'Digital Craftsman'
+];
 
   const codeSnippets = [
   '{ conversionRate: "↑37%", loadTime: "↓45%" }',
