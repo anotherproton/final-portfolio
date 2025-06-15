@@ -20,71 +20,46 @@ const Services = () => {
     return () => observer.disconnect();
   }, []);
 
+  
   const services = [
     {
       icon: Palette,
-      title: 'Custom Theme Development',
-      description: 'Create unique, brand-focused Shopify themes that stand out from the competition and drive conversions.',
-      features: ['Responsive Design', 'Custom Sections', 'SEO Optimized', 'Brand Integration'],
-      price: 'From $2,500'
+      title: 'Custom Shopify Themes',
+      description: 'Pixel-perfect themes built from Figma, optimized for performance, mobile UX, and conversions.',
+      features: ['Figma to Shopify', '95+ PageSpeed Score', 'Mobile-First UX', 'Custom Animations'],
+      price: 'From $2,000'
     },
     {
       icon: Settings,
-      title: 'Store Setup & Configuration',
-      description: 'Complete Shopify store setup with payment gateways, shipping, taxes, and essential app integrations.',
-      features: ['Payment Setup', 'Shipping Config', 'Tax Configuration', 'App Integration'],
-      price: 'From $1,200'
+      title: 'Advanced Checkout & Cart Logic',
+      description: 'Custom pricing calculators, subscription flows, and upsell/bundle integrations that drive revenue.',
+      features: ['Live Pricing Calculator', 'Bundling/Upsell', 'One-Click Checkout', 'Subscription Models'],
+      price: 'From $1,800'
     },
     {
       icon: Smartphone,
-      title: 'Mobile Optimization',
-      description: 'Ensure your store provides an exceptional experience across all devices with mobile-first design.',
-      features: ['Mobile-First Design', 'Touch Optimization', 'Fast Loading', 'Responsive Layout'],
-      price: 'From $800'
-    },
-    {
-      icon: ShoppingCart,
-      title: 'E-commerce Strategy',
-      description: 'Develop comprehensive e-commerce strategies to maximize sales and improve customer retention.',
-      features: ['Conversion Optimization', 'User Experience', 'Sales Funnels', 'Customer Journey'],
+      title: 'App Integrations & Private Apps',
+      description: 'Seamless integrations with 3rd party apps and private apps built for business automation.',
+      features: ['WhatsApp, CRM, ERP', 'Invoice Automation', 'Inventory Sync', 'Private APIs'],
       price: 'From $1,500'
     },
     {
       icon: Zap,
-      title: 'Performance Optimization',
-      description: 'Speed up your store with advanced optimization techniques for better user experience and SEO.',
-      features: ['Page Speed', 'Image Optimization', 'Code Minification', 'CDN Integration'],
-      price: 'From $1,000'
-    },
-    {
-      icon: Code2,
-      title: 'Custom App Development',
-      description: 'Build custom Shopify apps to extend functionality and meet specific business requirements.',
-      features: ['API Integration', 'Custom Features', 'Third-party Sync', 'Automation Tools'],
-      price: 'From $3,500'
-    },
-    {
-      icon: Layers,
-      title: 'Headless Commerce',
-      description: 'Modern headless solutions using Shopify as backend with React/Next.js frontend for ultimate flexibility.',
-      features: ['React/Next.js', 'GraphQL APIs', 'Custom Frontend', 'Scalable Architecture'],
-      price: 'From $5,000'
-    },
-    {
-      icon: Database,
-      title: 'Migration Services',
-      description: 'Seamlessly migrate your existing store to Shopify with zero downtime and data integrity.',
-      features: ['Data Migration', 'SEO Preservation', 'Zero Downtime', 'Testing & QA'],
-      price: 'From $2,000'
+      title: 'Performance & SEO Optimization',
+      description: 'Reduce bounce rates, improve load times, and scale traffic through SEO and performance tuning.',
+      features: ['Script Deferrals', 'Core Web Vitals', 'SEO URL Migrations', 'PageSpeed Optimization'],
+      price: 'From $1,200'
     },
     {
       icon: Headphones,
-      title: 'Ongoing Support',
-      description: 'Continuous maintenance, updates, and support to keep your store running smoothly.',
-      features: ['24/7 Support', 'Regular Updates', 'Bug Fixes', 'Performance Monitoring'],
-      price: 'From $500/month'
+      title: 'Store Management & Automation',
+      description: 'Full-stack store configuration including shipping, automation, and support systems.',
+      features: ['Shipping Rules', 'Email Workflows', 'WhatsApp Support', 'Product Management'],
+      price: 'From $1,000'
     }
-  ];
+  ]
+
+;
 
   return (
     <section id="services" className="section-padding bg-black">

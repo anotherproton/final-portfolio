@@ -7,6 +7,10 @@ const Hero = () => {
   const [typedText, setTypedText] = useState('');
 
   const roles = [
+  'Shopify Developer',
+  'Performance Optimizer',
+  'Liquid Engineer',
+  'Frontend Architect'
     'Shopify Developer',
     'E-commerce Architect', 
     'Frontend Engineer',
@@ -14,6 +18,12 @@ const Hero = () => {
   ];
 
   const codeSnippets = [
+  '{ conversionRate: "↑37%", loadTime: "↓45%" }',
+  'buildTheme("Figma → Shopify")',
+  'optimize(UX).for("mobile-first")',
+  'integrate(Apps).via("Private APIs")',
+  'return <HighConvertingStore />',
+  'git push origin scalable-code'
     '{ theme: "liquid", magic: true }',
     'const success = await deploy();',
     'if (coffee) { code(); }',
